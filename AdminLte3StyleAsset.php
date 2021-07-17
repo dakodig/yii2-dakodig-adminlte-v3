@@ -9,7 +9,7 @@ use yii\web\AssetBundle as BaseAdminLteAsset;
  */
 class AdminLte3StyleAsset extends BaseAdminLteAsset {
 
-    public $sourcePath = '@vendor/dakodig/template/plugins';
+    public $sourcePath = '@vendor/dakodig/yii2-dakodig-adminlte-v3/plugins';
     public $css = [
         'css/dakodig.style.css',
     ];
