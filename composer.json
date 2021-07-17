@@ -1,0 +1,33 @@
+{
+    "name": "dakodig/yii2-dakodig-adminlte-v3",
+    "version": "0.1",
+    "description": "Admin LTE 3",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "extension"],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Ade Priyanto",
+            "email": "mr.adepriyanto@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "yiisoft/yii2": "~2.0.0",
+        "yiisoft/yii2-bootstrap4": "2.0.10",
+        "almasaeed2010/adminlte": "3.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "dakodig\\template\\": ""
+        }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/dakwahkodingdigital/yii2-dakodig-adminlte.git"
+        }
+    ]
+}
