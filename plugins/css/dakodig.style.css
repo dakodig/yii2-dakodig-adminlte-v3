@@ -1,6 +1,6 @@
 div.sidebar{
     width: max-content;
 }
-div nav{
+div nav ul li a{
     font-size: 12px;
 }

@@ -11,7 +11,7 @@ class AdminLte3StyleAsset extends BaseAdminLteAsset {
 
     public $sourcePath = '@vendor/dakodig/template/plugins';
     public $css = [
-        'css/style.css',
+        'css/dakodig.style.css',
     ];
     public $js = [
     ];
