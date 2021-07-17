@@ -13,10 +13,16 @@ class AdminLte3PluginAsset extends BaseAdminLteAsset {
     public $css = [
         'fontawesome-free/css/all.min.css',
         'chart.js/Chart.css',
+        'toastr/toastr.css',
+        'overlayScrollbars/css/OverlayScrollbars.min.css'
     ];
     public $js = [
         'bootstrap/js/bootstrap.js',
         'chart.js/Chart.js',
+        'jquery/jquery.min.js',
+        'jquery/jquery.slim.js',
+        'toastr/toastr.min.js',
+        'overlayScrollbars/js/jquery.overlayScrollbars.min.js'
     ];
 
 }
