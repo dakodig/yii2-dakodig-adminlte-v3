@@ -11,12 +11,12 @@ class AdminLte3PluginAsset extends BaseAdminLteAsset {
 
     public $sourcePath = '@vendor/almasaeed2010/adminlte/plugins';
     public $css = [
-        '/fontawesome-free/css/all.min.css',
-        '/chart.js/Chart.css',
+        'fontawesome-free/css/all.min.css',
+        'chart.js/Chart.css',
     ];
     public $js = [
-        '/bootstrap/js/bootstrap.js',
-        '/chart.js/Chart.js',
+        'bootstrap/js/bootstrap.js',
+        'chart.js/Chart.js',
     ];
 
 }
